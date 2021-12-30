@@ -1,0 +1,76 @@
+/* default styling */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* descendent selector combinators */
+header h1{
+    font-weight: 500;
+   
+}
+
+
+/* to give spacing between items */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+/* to give some width to the nav bar to expand itself for justifying content */
+nav{
+    width: 20rem;
+    position:relative;
+    top: 1rem;
+    right: 3rem;
+}
+
+
+ /* to give horizontal spacing between ul items */
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* to remove the bold points from list items */
+li{
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+/* class selector */
+
+.image1{
+    width: 95vw;
+    margin: 1rem;
+}
+
+article{
+    display: flex;
+}
+
+.content{
+    text-align: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-weight: 400;
+}
+
+/* pseudo classes */
+
+a:hover{
+    color: brown;
+}
+
+footer{
+    background-color: black;
+    height: 4rem;
+    color:white;
+    align-items: center;
+}
